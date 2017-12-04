@@ -56,6 +56,7 @@ public class MyStack implements StackInterface<Integer> {
     public boolean push(Integer e) {
 
         if (top == size - 1 ){
+            System.out.println("栈满！只能存储" + (size )+"个");
             return false;
         }
 
