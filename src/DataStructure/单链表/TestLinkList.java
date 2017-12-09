@@ -1,7 +1,5 @@
 package DataStructure.单链表;
 
-import java.util.Random;
-
 /**
  * @Author:Liweijian
  * @Description:
