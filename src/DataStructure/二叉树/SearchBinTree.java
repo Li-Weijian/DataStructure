@@ -1,12 +1,14 @@
 package DataStructure.二叉树;
 
 
+import java.util.TreeSet;
+
 /**
  * 查找二叉树
  * */
 public class SearchBinTree {
 
-    Node rootNode = null;
+    private Node rootNode = null;
 
     /**
      * 插入数据
@@ -52,6 +54,32 @@ public class SearchBinTree {
                 insertNode(insertData,node.leftChildNode);
             }
         }
+    }
+
+    /**
+     * 查找节点
+     * */
+    public Node search(int data, Node node){
+        if (rootNode == null){
+            return null;
+        }
+        if (data == node.data){
+            return node;
+        }else if (node.data > data && node.leftChildNode != null){
+            return search(data,node.leftChildNode);
+        }else if (node.data < data && node.rightChildNode != null){
+            return search(data,node.rightChildNode);
+        }else {
+            return null;
+        }
+    }
+
+
+    /**
+     * 获取Root节点
+     * */
+    public Node getRootNode() {
+        return rootNode;
     }
 
     /**
