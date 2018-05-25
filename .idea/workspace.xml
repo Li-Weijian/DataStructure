@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d5f2e98-50eb-4d3e-9927-1d563bc9d2bd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DataStructure/图/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataStructure/图/TestGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataStructure/排序/SelectSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataStructure/二叉树/SearchBinTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructure/二叉树/SearchBinTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataStructure/二叉树/TestSearcBinTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructure/二叉树/TestSearcBinTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStructure/图/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructure/图/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStructure/图/TestGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructure/图/TestGraph.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,14 +31,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DataStructure/图/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="392">
+              <caret line="169" column="9" selection-start-line="169" selection-start-column="9" selection-end-line="169" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SelectSort.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DataStructure/排序/SelectSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-56">
+              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -47,8 +52,8 @@
       <file leaf-file-name="TestGraph.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DataStructure/图/TestGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+            <state relative-caret-position="1025">
+              <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -91,8 +96,9 @@
         <option value="$PROJECT_DIR$/src/DataStructure/二叉树/Node.java" />
         <option value="$PROJECT_DIR$/src/DataStructure/二叉树/SearchBinTree.java" />
         <option value="$PROJECT_DIR$/src/DataStructure/二叉树/TestSearcBinTree.java" />
-        <option value="$PROJECT_DIR$/src/DataStructure/图/TestGraph.java" />
         <option value="$PROJECT_DIR$/src/DataStructure/图/Graph.java" />
+        <option value="$PROJECT_DIR$/src/DataStructure/图/TestGraph.java" />
+        <option value="$PROJECT_DIR$/src/DataStructure/排序/SelectSort.java" />
       </list>
     </option>
   </component>
@@ -106,10 +112,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-342" />
-    <option name="y" value="56" />
+    <option name="x" value="-345" />
+    <option name="y" value="55" />
     <option name="width" value="1400" />
-    <option name="height" value="994" />
+    <option name="height" value="995" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -135,6 +141,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -160,18 +167,18 @@
               <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="图" type="462c0819:PsiDirectoryNode" />
+              <item name="排序" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
@@ -187,7 +194,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestGraph">
+  <component name="RunManager" selected="Application.SelectSort">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -202,6 +209,17 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataStructure.排序.SelectSort" />
+      <module name="DataStructure" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataStructure.排序.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="TestGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DataStructure.图.TestGraph" />
       <module name="DataStructure" />
@@ -209,17 +227,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="DataStructure.图.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="TestLinkedStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DataStructure.链栈.TestLinkedStack" />
-      <module name="DataStructure" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DataStructure.链栈.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -301,19 +308,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="Application.TestLinkedStack" />
       <item itemvalue="Application.Fibonacci" />
       <item itemvalue="Application.TestMyQueue" />
       <item itemvalue="Application.TestSearcBinTree" />
       <item itemvalue="Application.TestGraph" />
+      <item itemvalue="Application.SelectSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SelectSort" />
         <item itemvalue="Application.TestGraph" />
         <item itemvalue="Application.TestSearcBinTree" />
         <item itemvalue="Application.TestMyQueue" />
         <item itemvalue="Application.Fibonacci" />
-        <item itemvalue="Application.TestLinkedStack" />
       </list>
     </recent_temporary>
   </component>
@@ -337,7 +344,11 @@
       <workItem from="1512800903256" duration="469000" />
       <workItem from="1512801429704" duration="3458000" />
       <workItem from="1526893481552" duration="9535000" />
-      <workItem from="1526969296427" duration="3402000" />
+      <workItem from="1526969296427" duration="3670000" />
+      <workItem from="1527045011422" duration="74000" />
+      <workItem from="1527062961679" duration="6074000" />
+      <workItem from="1527149765090" duration="129000" />
+      <workItem from="1527255213649" duration="997000" />
     </task>
     <task id="LOCAL-00001" summary="实现循环链表">
       <created>1509719280213</created>
@@ -374,11 +385,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526898717241</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="实现图的构建和图的入度出度的查询">
+      <created>1526982074209</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1526982074209</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46881000" />
+    <option name="totallyTimeSpent" value="54423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -386,26 +404,26 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32901832" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32793522" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32901832" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28879893" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29959515" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32901832" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13337801" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13941018" />
       <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39811066" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -436,14 +454,43 @@
     <MESSAGE value="实现链栈" />
     <MESSAGE value="栈的应用-递归：实现斐波那契数列" />
     <MESSAGE value="实现二叉查找数的插入和中序遍历" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现二叉查找数的插入和中序遍历" />
+    <MESSAGE value="实现图的构建和图的入度出度的查询" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现图的构建和图的入度出度的查询" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="32" />
+      <option name="time" value="33" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/DataStructure/图/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructure/图/TestGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructure/图/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructure/图/TestGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/DataStructure/二叉树/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -768,18 +815,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DataStructure/图/TestGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+        <state relative-caret-position="1025">
+          <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DataStructure/图/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="392">
+          <caret line="169" column="9" selection-start-line="169" selection-start-column="9" selection-end-line="169" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructure/排序/SelectSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-56">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
         </state>
       </provider>
     </entry>
