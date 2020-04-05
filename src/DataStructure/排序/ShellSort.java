@@ -20,6 +20,7 @@ public class ShellSort {
                 if (array[i] < array[i - incr]){
                     temp = array[i];
                     //将两个数字进行换位
+                    //循环的条件即是如果temp<array[j] 就继续将两个数字交换位置
                     for ( j = i - incr; j >= 0 && temp < array[j]; j -= incr){
                         array[j+incr] = array[j];
                     }
